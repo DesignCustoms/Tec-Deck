@@ -96,7 +96,7 @@ export function Home() {
                     Tec-Deck
                   </div>
                 </div>
-                <div className="flex flex-wrap items-center gap-2">
+                <div className="mt-3 flex flex-wrap items-center gap-2">
                   <Pill>Operations and accountability</Pill>
                   <Pill>High density power and cooling</Pill>
                   <Pill>Resilience informed by biomimicry</Pill>

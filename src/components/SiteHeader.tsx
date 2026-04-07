@@ -17,8 +17,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[rgb(var(--td-bg))]/70 backdrop-blur">
       <Container>
-        <div className="flex h-16 items-center justify-between gap-4">
-          <Link href="/" className="group flex items-center gap-3">
+        <div className="flex h-16 items-center justify-between gap-3">
+          <Link href="/" className="group flex min-w-0 items-center gap-3">
             <span className="inline-flex items-center justify-center rounded-xl p-0.5">
               <img
                 src="/tec-deck.svg"
@@ -28,11 +28,13 @@ export function SiteHeader() {
                 height={28}
               />
             </span>
-            <div className="leading-tight">
-              <div className="text-sm font-semibold tracking-wide text-white">
+            <div className="min-w-0 leading-tight">
+              <div className="truncate text-sm font-semibold tracking-wide text-white">
                 Tec<span className="text-white/60">-</span>Deck
               </div>
-              <div className="text-xs text-white/60">Data center capacity for modern compute</div>
+              <div className="hidden truncate text-xs text-white/60 sm:block">
+                Data center capacity for modern compute
+              </div>
             </div>
           </Link>
 
@@ -51,7 +53,7 @@ export function SiteHeader() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <Button variant="secondary" to="/contact" className="hidden sm:inline-flex">
               Talk to an engineer
             </Button>
