@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+:root {
+  --td-bg: 6 8 20;
+  --td-surface: 10 14 30;
+  --td-border: 255 255 255;
+  --td-text: 229 231 235;
+  --td-muted: 156 163 175;
+  --td-accent: 74 222 128;
+  --td-accent2: 59 130 246;
+  color-scheme: dark;
+  --td-font: 'Inter Variable', Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--td-font);
+  background: radial-gradient(1200px 700px at 30% 0%, rgba(59, 130, 246, 0.18), transparent 55%),
+    radial-gradient(1000px 600px at 80% 10%, rgba(74, 222, 128, 0.12), transparent 55%),
+    rgb(var(--td-bg));
+  color: rgb(var(--td-text));
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: rgba(74, 222, 128, 0.25);
+}
+
+.td-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(600px 300px at 50% 0%, black 45%, transparent 85%);
+}
+
+.td-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 18px 80px rgba(0, 0, 0, 0.45),
+    0 1px 0 rgba(255, 255, 255, 0.08) inset;
+  backdrop-filter: blur(10px);
+}
+
+.td-ring {
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 0 0 6px rgba(59, 130, 246, 0.10);
+}
+
+.td-gradient-text {
+  background-image: linear-gradient(90deg, rgb(var(--td-text)), rgba(229, 231, 235, 0.78), rgba(74, 222, 128, 0.9));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
