@@ -39,7 +39,7 @@ export function About() {
                 },
                 {
                   title: 'Systems thinking',
-                  body: 'Biomimicry helps us reason about stability, flow, and complexity.',
+                  body: 'Nature informed systems thinking helps us reason about stability, flow, and complexity.',
                 },
               ].map((x) => (
                 <div key={x.title} className="td-card rounded-3xl p-6">
@@ -73,7 +73,7 @@ export function About() {
               <div className="mt-7 flex flex-col gap-3">
                 <Button to="/contact">Contact Tec-Deck</Button>
                 <Button variant="secondary" to="/biomimicry">
-                  Biomimicry approach
+                  View our approach
                 </Button>
               </div>
             </div>

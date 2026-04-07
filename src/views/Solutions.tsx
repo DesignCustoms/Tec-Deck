@@ -35,7 +35,7 @@ export function Solutions() {
         title="Data center capacity for modern compute"
         lead="Tec-Deck supports training and inference deployments with power, cooling, and operations designed for high density environments. Our approach is engineering led, service forward, and built to reduce operational risk as you scale."
         primaryCta={{ label: 'Request a proposal', to: '/contact' }}
-        secondaryCta={{ label: 'Biomimicry approach', to: '/biomimicry' }}
+        secondaryCta={{ label: 'View our approach', to: '/biomimicry' }}
       />
 
       <Section>

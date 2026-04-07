@@ -7,7 +7,7 @@ import { Button } from './Button'
 
 const nav = [
   { to: '/solutions', label: 'Solutions' },
-  { to: '/biomimicry', label: 'Biomimicry' },
+  { to: '/biomimicry', label: 'Approach' },
   { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },
 ]

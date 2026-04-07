@@ -99,7 +99,7 @@ export function Home() {
                 <div className="mt-3 flex flex-wrap items-center gap-2">
                   <Pill>Operations and accountability</Pill>
                   <Pill>High density power and cooling</Pill>
-                  <Pill>Resilience informed by biomimicry</Pill>
+                  <Pill>Resilience informed by nature</Pill>
                 </div>
 
                 <h1 className="mt-7 text-balance text-4xl font-semibold tracking-tight text-white sm:text-6xl">
@@ -173,7 +173,7 @@ export function Home() {
             <div className="md:col-span-6">
               <div className="td-card rounded-3xl p-7">
                 <div className="text-xs font-semibold tracking-wide text-emerald-300/80">
-                  Biomimicry principle
+                  Design principle
                 </div>
                 <div className="mt-2 text-xl font-semibold text-white">
                   “Resilience through redundancy, without waste.”
@@ -211,7 +211,7 @@ export function Home() {
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                   <Button variant="secondary" to="/biomimicry">
-                    How biomimicry shapes Tec-Deck
+                    View our approach
                   </Button>
                   <Button to="/contact">Start a conversation</Button>
                 </div>

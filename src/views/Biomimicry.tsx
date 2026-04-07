@@ -25,13 +25,13 @@ function Principle({
   )
 }
 
-export function Biomimicry() {
+export function Approach() {
   return (
     <main>
       <PageHero
-        eyebrow="Biomimicry"
+        eyebrow="Approach"
         title="Resilience informed by nature, applied to infrastructure"
-        lead="Biomimicry is not aesthetics. It is a systems approach that emphasizes stability under stress, clear signals, and adaptation without cascading failure. Tec-Deck uses these principles to guide design decisions and operational practices."
+        lead="This is a systems approach that emphasizes stability under stress, clear signals, and adaptation without cascading failure. Tec-Deck uses these principles to guide design decisions and operational practices."
         primaryCta={{ label: 'Request a proposal', to: '/contact' }}
         secondaryCta={{ label: 'View solutions', to: '/solutions' }}
       />

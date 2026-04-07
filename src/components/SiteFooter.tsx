@@ -26,7 +26,7 @@ export function SiteFooter() {
                   </li>
                   <li>
                     <Link className="hover:text-white" href="/biomimicry">
-                      Biomimicry
+                      Approach
                     </Link>
                   </li>
                 </ul>

@@ -1,6 +1,6 @@
-import { Biomimicry } from '../../src/views/Biomimicry'
+import { Approach } from '../../src/views/Biomimicry'
 
 export default function Page() {
-  return <Biomimicry />
+  return <Approach />
 }
 
